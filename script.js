@@ -1,15 +1,15 @@
 let buttonClicks = 0;
 let button = document.getElementById("clicky");
 
-var mouseDown = new Audio('sounds/click_down.wav');
-var mouseUp = new Audio('sounds/click_up.wav');
+let mouseDown = new Audio('sounds/click_down.wav');
+let mouseUp = new Audio('sounds/click_up.wav');
 
-function clickbutton () {
+function clickbutton() {
   buttonClicks++;
   button.innerHTML = "Button CLicks: " + buttonClicks;
   mouseDown.play();
 }
 
-function declickbutton {  
+function declickbutton() {  
   mouseUp.play();
 }
