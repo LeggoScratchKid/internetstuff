@@ -6,7 +6,7 @@ let mouseUp = new Audio('sounds/click_up.wav');
 
 function clickbutton() {
   buttonClicks++;
-  button.innerHTML = "Button CLicks: " + buttonClicks;
+  button.innerHTML = "Button Clicks: " + buttonClicks;
   mouseDown.play();
 }
 
