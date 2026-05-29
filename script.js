@@ -3,5 +3,5 @@ let button = document.getElementById("clicky");
 
 clicky.onclick = function () {
   buttonClicks++;
-  button.innerHTML = count;
+  button.innerHTML = "Button CLicks: " + buttonClicks;
 }
