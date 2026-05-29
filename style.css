@@ -12,6 +12,14 @@ body {
   height: 75px;
 }
 
+#clicky:hover {
+  transform: scale(1.1);
+}
+
+#clicky:active {
+  transform: scale(0.9);
+}
+
 .button {
   text-align: center;
   width: 200px;
