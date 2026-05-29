@@ -3,6 +3,15 @@ body {
   text-align: center;
 }
 
+#clicky {
+  text-align: center;
+  background-color: cyan;
+  border: 5px solid yellow;
+  border-radius: 50px;
+  width: 200px;
+  height: 75px;
+}
+
 .button {
   text-align: center;
   width: 200px;
