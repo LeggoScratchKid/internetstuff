@@ -21,6 +21,13 @@ body {
   transform: scale(0.9);
 }
 
+#dangerButton {
+  color: red;
+  background-color: black;
+  border: 5px solid red;
+  border-radius: 50px;
+}
+
 .button {
   text-align: center;
   width: 200px;
