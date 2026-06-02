@@ -16,9 +16,9 @@ function danger() {
 
 function spare() {
   textbox.style.color = "red";
-  textbox.text = "The button has spared you. Take this chance to flee.";
+  textbox.innerHTML = "The button has spared you. Take this chance to flee.";
 };
 
 function deleteWebpage() {
-  page.text = "";
+  page.innerHTML = "";
 };
